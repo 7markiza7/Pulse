@@ -16,21 +16,21 @@
         width: 70px;
         height: 70px;
     }
-    &_header {
+    &_title {
         margin-top: 35px;
         font-weight: 700;
         font-size: 18px;
         text-align: center;
         color: #0D0D0D;
     }
-    &_subheader {
+    &_descr {
         margin-top: 20px;
         font-weight: 300;
         font-size: 14px;
         line-height: 18px;
         text-align: center;
         color: #0D0D0D;
-        span {
+        a {
             text-decoration-line: underline;
             color: #FF0000;;
         }

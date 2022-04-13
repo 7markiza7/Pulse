@@ -25,4 +25,31 @@
         height: 58px;
         font-size: 16px;
     }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        left: 150px;
+        top: 378px;
+        font-size: 14px;
+    }
+}
+.slick-dots {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 0;
+    button {
+        background: #A9A9A9;
+        border: none;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        margin: 5px;
+        outline: none;
+    }      
 }

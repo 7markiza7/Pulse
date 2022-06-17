@@ -194,9 +194,15 @@
             line-height: 25px;
             text-align: center;
         }
+        .feed-form {
+            margin: 15px auto;
+        }
     }
     .carousel {
         padding: 50px 0;
+        &__inner {
+            width: 575px;
+        }
         img {
             width: 555px;
         }
@@ -261,6 +267,9 @@
     }
     .carousel {
         padding: 40px 0;
+        &__inner {
+            width: 320px;
+        }
         img {
             width: 300px;
         }

@@ -141,6 +141,9 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+            ul {
+                padding-inline-start: 0px;
+            }
             li {
                 position: relative;
                 font-weight: 300;

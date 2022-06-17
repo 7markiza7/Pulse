@@ -15,6 +15,12 @@
     &_img {
         width: 70px;
         height: 70px;
+        &_animated {
+            animation: headerbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &_title {
         margin-top: 35px;
